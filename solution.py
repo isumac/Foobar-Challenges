@@ -4,7 +4,7 @@ from textwrap import wrap
 
 def solution(search_string):
     factors = factorise(len(search_string))
-    sub = search_string[0:len(set(search_string))]
+
     for factor in factors:   
         substring = search_string[0:factor["factor1"]]
 
