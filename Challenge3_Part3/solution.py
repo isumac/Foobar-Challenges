@@ -1,6 +1,5 @@
 import time
 
-
 def solution(start, length):
    
     result = 0
